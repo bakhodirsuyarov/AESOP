@@ -1,0 +1,52 @@
+// HERO
+.hero{
+  background-image: url(../img/hero-img.png);
+}
+
+.hero-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-top__links{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-left__links{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+
+.hero-logo__link{
+  margin-right: 40px;
+}
+
+.hero-left__list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-left__item{
+  list-style: none;
+}
+
+.hero-left__link{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: $color-light;
+  text-decoration: none;
+}
+
+.hero-right__list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 40px;
+}

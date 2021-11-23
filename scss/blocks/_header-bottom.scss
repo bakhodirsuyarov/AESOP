@@ -1,0 +1,12 @@
+// HEADER-BOTTOM
+.header-bottom{
+  background-color: $color-header-bottom;
+}
+
+.header-bottom__title{
+  display: flex;
+  justify-content: center;
+  color: $color-light;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
