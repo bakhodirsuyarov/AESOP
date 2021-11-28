@@ -1,9 +1,14 @@
 // HEADER-TOP
 .header-top{
+  background-color: $color-header-top;
+}
+
+.header-top__wrapper{
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-color: $color-header-top;
+  justify-content: space-between;
+  margin-left: 214px;
+  margin-right: 214px;
 }
 
 .header-top__title{
@@ -11,8 +16,8 @@
   font-size: 14px;
   line-height: 21px;
   text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
   color: $color-light;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
