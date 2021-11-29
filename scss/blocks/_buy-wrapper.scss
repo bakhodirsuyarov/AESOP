@@ -3,10 +3,15 @@
   display: flex;
 }
 
+.buy-wrapper__left{
+  width: 50%;
+}
+
 .buy-wrapper__right{
   background-image: url(../../img/main1-right.png);
   background-repeat: no-repeat;
   background-size: cover;
+  width: 50%;
 }
 
 
