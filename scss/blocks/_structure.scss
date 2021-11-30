@@ -1,0 +1,49 @@
+// STRUCTURE
+.structure{
+  padding-bottom: 200px;
+}
+
+.structure-wrapper{
+  display: flex;
+  margin-left: 80px;
+}
+
+.structure-info{
+  padding-right: 80px;
+}
+
+.structure-desc{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: $color-header-bottom;
+  margin-bottom: 24px;
+}
+
+.structure-title{
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 40px;
+  color: $color-header-bottom;
+  margin-bottom: 27px;
+}
+
+.structure-text{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  color: $color-header-bottom;
+  margin-bottom: 24px;
+}
+
+.structure-btn{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: $color-header-bottom;
+  padding: 20px 60px 20px 24px;
+  border: 1px solid rgba(51, 51, 51, 0.1);
+  box-sizing: border-box;
+  border-radius: 0px;
+  background-color: $color-light;
+}

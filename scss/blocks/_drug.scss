@@ -1,0 +1,108 @@
+// DRUG
+.drug{
+  padding-bottom: 200px;
+}
+
+.drug-wrapper{
+  display: flex;
+  align-items: center;
+  padding: 0px 40px 0px 40px;
+}
+
+.drug-wrapper__one{
+  position: relative;
+  // margin-bottom: 40px;
+}
+
+.drug-wrapper__one::before{
+  position: absolute;
+  content: "";
+  width: 427px;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.2);
+  left: 0;
+  right: 0;
+  top: 100%;
+  margin-top: 50px;
+}
+
+.drug-wrapper__one:active::before{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.drug-wrapper__one-title{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: $color-header-bottom;
+}
+
+.drug-wrapper__one-title:not(:last-child){
+  margin-bottom: 10px;
+}
+
+.drug-wrapper__two{
+  position: relative;
+  // margin-bottom: 40px;
+}
+
+.drug-wrapper__two::before{
+  position: absolute;
+  content: "";
+  width: 427px;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.2);
+  left: 0;
+  right: 0;
+  top: 100%;
+  margin-top: 50px;
+}
+
+.drug-wrapper__two:active::before{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.drug-wrapper__two-title{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: $color-header-bottom;
+}
+
+.drug-wrapper__two-title:not(:last-child){
+  margin-bottom: 10px;
+}
+
+.drug-wrapper__three{
+  position: relative;
+}
+
+.drug-wrapper__three::before{
+  position: absolute;
+  content: "";
+  width: 427px;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.2);
+  left: 0;
+  right: 0;
+  top: 100%;
+  margin-top: 50px;
+}
+
+.drug-wrapper__three:active::before{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.drug-wrapper__three-title{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: $color-header-bottom;
+}
+
+.drug-wrapper__three-title:not(:last-child){
+  margin-bottom: 10px;
+}

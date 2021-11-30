@@ -764,4 +764,244 @@ body {
 .features-three:active::before {
   background: rgba(0, 0, 0, 0.6);
 }
+
+.structure {
+  padding-bottom: 200px;
+}
+
+.structure-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 80px;
+}
+
+.structure-info {
+  padding-right: 80px;
+}
+
+.structure-desc {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
+  margin-bottom: 24px;
+}
+
+.structure-title {
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 40px;
+  color: #333333;
+  margin-bottom: 27px;
+}
+
+.structure-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  color: #333333;
+  margin-bottom: 24px;
+}
+
+.structure-btn {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  padding: 20px 60px 20px 24px;
+  border: 1px solid rgba(51, 51, 51, 0.1);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0px;
+  background-color: #FFFEF2;
+}
+
+.drug {
+  padding-bottom: 200px;
+}
+
+.drug-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 40px 0px 40px;
+}
+
+.drug-wrapper__one {
+  position: relative;
+}
+
+.drug-wrapper__one::before {
+  position: absolute;
+  content: "";
+  width: 427px;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.2);
+  left: 0;
+  right: 0;
+  top: 100%;
+  margin-top: 50px;
+}
+
+.drug-wrapper__one:active::before {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.drug-wrapper__one-title {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #333333;
+}
+
+.drug-wrapper__one-title:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.drug-wrapper__two {
+  position: relative;
+}
+
+.drug-wrapper__two::before {
+  position: absolute;
+  content: "";
+  width: 427px;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.2);
+  left: 0;
+  right: 0;
+  top: 100%;
+  margin-top: 50px;
+}
+
+.drug-wrapper__two:active::before {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.drug-wrapper__two-title {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #333333;
+}
+
+.drug-wrapper__two-title:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.drug-wrapper__three {
+  position: relative;
+}
+
+.drug-wrapper__three::before {
+  position: absolute;
+  content: "";
+  width: 427px;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.2);
+  left: 0;
+  right: 0;
+  top: 100%;
+  margin-top: 50px;
+}
+
+.drug-wrapper__three:active::before {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.drug-wrapper__three-title {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #333333;
+}
+
+.drug-wrapper__three-title:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.deliver {
+  padding-bottom: 240px;
+}
+
+.deliver-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 50px;
+  margin-bottom: 200px;
+}
+
+.deliver-info {
+  margin-right: 90px;
+}
+
+.deliver-info__title {
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 40px;
+  color: #333333;
+  margin-bottom: 27px;
+}
+
+.deliver-info__text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 53px;
+}
+
+.deliver-info__btn {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #FFFEF2;
+  padding: 20px 245px 21px 24px;
+}
+
+.deliver-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-right: 340px;
+  padding-left: 340px;
+}
+
+.deliver-bottom__title {
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 14px;
+}
+
+.deliver-bottom__span {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  color: #333333;
+}
 /*# sourceMappingURL=main.css.map */
